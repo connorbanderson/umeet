@@ -1,4 +1,13 @@
-# umeet
+# ✨ uMeet ✨
+
+### Motivation
+A meeting app where users can sign up for and create local events. Used to practice my Vue JS skills<br>
+
+### Technologies Used
+* Vue Ant Design
+* Firebase
+* Self Made SVG's in Adobe Illustrator
+* Animated SVGs
 
 ## Project setup
 ```
