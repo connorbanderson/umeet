@@ -3,13 +3,11 @@
   <div class='meetups'>
     <a-carousel class='carouselContainer' arrows>
       <div slot="prevArrow"
-           slot-scope="props"
            class="custom-slick-arrow"
            style="left: 10px;zIndex: 1">
         <a-icon type="left-circle" />
       </div>
       <div slot="nextArrow"
-           slot-scope="props"
            class="custom-slick-arrow"
            style="right: 10px">
         <a-icon type="right-circle" />
@@ -22,10 +20,10 @@
           <h3>{{meetup.title}}</h3>
           <div class='carouselRow'>
             <div class='carouselStat'>
-              <a-icon class='carouselIcon' type="user" /> 23
+              <a-icon class='carouselIcon' type="user" /> {{meetup.attendees}}
             </div>
             <div class='carouselStat'>
-              <a-icon class='carouselIcon' type="calendar" /> 4 Days, 2 Hours
+              <a-icon class='carouselIcon' type="calendar" /> {{meetup.time}}
             </div>
           </div>
         </div>
@@ -44,13 +42,17 @@
           {
             imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg',
             id: 'afajfjadfaadfa323',
-            title: 'Meetup in New York'
+            title: 'Meetup in New York',
+            time: '5 Days, 1 Hour',
+            attendees: 41,
           },
           {
             imageUrl:
               'https://upload.wikimedia.org/wikipedia/commons/7/7a/Paris_-_Blick_vom_gro%C3%9Fen_Triumphbogen.jpg',
             id: 'aadsfhbkhlk1241',
-            title: 'Meetup in Paris'
+            title: 'Meetup in Paris',
+            time: '1 Day, 14 Hour',
+            attendees: 133,
           }
         ]
       }
