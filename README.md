@@ -1,7 +1,7 @@
 # ✨ uMeet ✨
 
 ### Motivation
-A meeting app where users can sign up and create local events. Used to practice my Vue JS skills<br>
+A meeting app where users can sign up for and create local events. Used to practice my Vue JS skills<br>
 
 ### Technologies Used
 * Vue Ant Design
